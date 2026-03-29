@@ -92,7 +92,7 @@ export default async function EssayPage({
           {essay.title}
         </h1>
         {quote && (
-          <p className="mt-6 italic text-ink-light text-base sm:text-lg leading-relaxed">
+          <p className="mt-6 italic text-ink-light text-lg sm:text-xl leading-relaxed text-center">
             {quote}
           </p>
         )}
