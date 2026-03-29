@@ -13,7 +13,7 @@ export default function Epigraph({ lines }: EpigraphProps) {
             key={i}
             className="block mt-4 text-sm not-italic text-ink-muted tracking-wide"
           >
-            {line}
+            {line.replace(/^\(\s*/, "\u2014 ").replace(/\s*\)$/, "")}
           </cite>
         ) : (
           <p key={i} className="text-lg sm:text-xl italic text-ink-light leading-loose">
