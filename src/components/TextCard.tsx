@@ -15,13 +15,13 @@ export default function TextCard({ title, slug, excerpt }: TextCardProps) {
         </h2>
       </Link>
       {excerpt && (
-        <p className="text-base text-ink-light leading-relaxed mb-6">
+        <p className="text-lg sm:text-xl text-ink-light leading-relaxed mb-6">
           {excerpt}
         </p>
       )}
       <Link
         href={`/${slug}`}
-        className="inline-block font-sans font-medium text-xs text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
+        className="inline-block font-sans font-medium text-sm text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
       >
         Läs texten →
       </Link>
