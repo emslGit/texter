@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Texter",
-  description: "En samling texter",
+  title: "Ingegerds texter",
+  description: "En samling texter om tro, erfarenhet och mänskliga möten av Ingegerd Slätteby.",
 };
 
 export default function RootLayout({

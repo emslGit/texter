@@ -21,9 +21,21 @@ export function generateStaticParams() {
   return manifest.map((e) => ({ slug: e.slug }));
 }
 
-export async function generateMetadata() {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const essay = getEssay(slug);
   const cfg = getConfig();
-  return { title: cfg.site?.title ?? "Texter" };
+  const siteTitle = cfg.site?.title ?? "Ingegerds texter";
+  if (!essay) return { title: siteTitle };
+  const description = getExcerpt(essay, 160).replace(/…$/, "");
+  return {
+    title: `${essay.title} — ${siteTitle}`,
+    description,
+    openGraph: {
+      title: `${essay.title} — ${siteTitle}`,
+      description,
+    },
+  };
 }
 
 // Poem detection
