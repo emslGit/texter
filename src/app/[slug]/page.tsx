@@ -87,12 +87,12 @@ export default async function EssayPage({
       </nav>
 
       {/* Title + quote */}
-      <header className="pt-8 pb-10 sm:pt-12 sm:pb-14">
+      <header className="pt-8 pb-10 sm:pt-12 sm:pb-14 text-center">
         <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink leading-tight">
           {essay.title}
         </h1>
         {quote && (
-          <p className="mt-6 italic text-ink-light text-lg sm:text-xl leading-relaxed text-center">
+          <p className="mt-6 italic text-ink-light text-lg sm:text-xl leading-relaxed">
             {quote}
           </p>
         )}
