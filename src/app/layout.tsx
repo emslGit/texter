@@ -34,6 +34,11 @@ export default function RootLayout({
           </div>
         </header>
         {children}
+        <footer className="text-center py-8">
+          <p className="font-sans text-xs text-ink-muted">
+            © {new Date().getFullYear()} Ingegerd Slätteby
+          </p>
+        </footer>
       </body>
     </html>
   );
