@@ -45,3 +45,8 @@ export function getEssay(slug: string): Essay | null {
 export function getManifest() {
   return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug, source: e.source }));
 }
+
+export function getExcerpt(essay: Essay, maxLen = 200): string {
+  const first = essay.sections[0]?.paragraphs[0] ?? "";
+  return first.length > maxLen ? first.slice(0, maxLen) + "\u2026" : first;
+}

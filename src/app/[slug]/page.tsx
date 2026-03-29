@@ -2,8 +2,10 @@ import { notFound } from "next/navigation";
 import { readFileSync } from "fs";
 import { join } from "path";
 import Link from "next/link";
-import { getAllEssays, getEssay, getManifest } from "@/lib/essays";
+import { getAllEssays, getEssay, getManifest, getExcerpt } from "@/lib/essays";
 import AuthorSection from "@/components/AuthorSection";
+import Quote from "@/components/Quote";
+import TextCard from "@/components/TextCard";
 
 function getConfig() {
   try {
@@ -23,6 +25,20 @@ export async function generateMetadata() {
   return { title: cfg.site?.title ?? "Texter" };
 }
 
+// Poem detection
+const POEM_STARTERS = [
+  '"Maria, Maria',
+  "\u201cMaria, Maria",
+  "\u201dMaria, Maria",
+  '"Det tänds ett ljus',
+  "\u201cDet tänds ett ljus",
+  "\u201dDet tänds ett ljus",
+];
+
+function isPoemStart(text: string): boolean {
+  return POEM_STARTERS.some((s) => text.startsWith(s));
+}
+
 export default async function EssayPage({
   params,
 }: {
@@ -36,20 +52,6 @@ export default async function EssayPage({
   const { name, bio, role } = config.author ?? {};
   const quote = config.texts?.[slug]?.quote ?? "";
   const otherEssays = getAllEssays().filter((e) => e.slug !== slug);
-
-  // Known poem starters for detecting verse blocks
-  const POEM_STARTERS = [
-    '"Maria, Maria',
-    "\u201cMaria, Maria",
-    "\u201dMaria, Maria",
-    '"Det tänds ett ljus',
-    "\u201cDet tänds ett ljus",
-    "\u201dDet tänds ett ljus",
-  ];
-
-  function isPoemStart(text: string): boolean {
-    return POEM_STARTERS.some((s) => text.startsWith(s));
-  }
 
   // Build paragraph elements with poem detection
   const paragraphs = essay.sections.flatMap((s) => s.paragraphs);
@@ -76,7 +78,6 @@ export default async function EssayPage({
 
   return (
     <div className="max-w-2xl mx-auto px-4 sm:px-6">
-      {/* Back link */}
       <nav className="pt-6 pb-2">
         <Link
           href="/"
@@ -86,19 +87,13 @@ export default async function EssayPage({
         </Link>
       </nav>
 
-      {/* Title + quote */}
       <header className="pt-8 pb-10 sm:pt-12 sm:pb-14 text-center">
-        <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink leading-tight">
+        <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink leading-tight mb-6">
           {essay.title}
         </h1>
-        {quote && (
-          <p className="mt-6 italic text-ink-light text-lg sm:text-xl leading-relaxed">
-            {quote}
-          </p>
-        )}
+        <Quote text={quote} />
       </header>
 
-      {/* Body */}
       <main className="text-base sm:text-lg leading-loose">
         {elements.map((el, idx) =>
           el.type === "poem" ? (
@@ -107,10 +102,7 @@ export default async function EssayPage({
               className="my-8 sm:my-10 py-5 px-5 sm:py-6 sm:px-8 border-l-2 border-accent bg-accent/5"
             >
               {el.lines.map((line, li) => (
-                <p
-                  key={li}
-                  className="italic text-ink-light mb-3 last:mb-0 leading-loose"
-                >
+                <p key={li} className="italic text-ink-light mb-3 last:mb-0 leading-loose">
                   {line}
                 </p>
               ))}
@@ -123,39 +115,21 @@ export default async function EssayPage({
         )}
       </main>
 
-      {/* Author */}
       <AuthorSection name={name} bio={bio} role={role} />
 
-      {/* Other texts */}
       {otherEssays.length > 0 && (
         <section className="border-t border-border pt-12 pb-4">
-          <p className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest mb-8">
+          <p className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest mb-4">
             Fler texter
           </p>
-          {otherEssays.map((other) => {
-            const firstPara = other.sections[0]?.paragraphs[0] ?? "";
-            const excerpt = firstPara.slice(0, 200) + (firstPara.length > 200 ? "\u2026" : "");
-            return (
-              <article key={other.slug} className="py-8 border-t border-border-light first:border-t-0">
-                <Link href={`/${other.slug}`} className="group block">
-                  <h3 className="font-serif text-xl sm:text-2xl font-medium text-ink mb-3 group-hover:text-ink-light transition-colors">
-                    {other.title}
-                  </h3>
-                </Link>
-                {excerpt && (
-                  <p className="text-sm sm:text-base text-ink-light leading-relaxed mb-4">
-                    {excerpt}
-                  </p>
-                )}
-                <Link
-                  href={`/${other.slug}`}
-                  className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest hover:text-ink transition-colors"
-                >
-                  Läs texten →
-                </Link>
-              </article>
-            );
-          })}
+          {otherEssays.map((other) => (
+            <TextCard
+              key={other.slug}
+              title={other.title}
+              slug={other.slug}
+              excerpt={getExcerpt(other)}
+            />
+          ))}
         </section>
       )}
 
