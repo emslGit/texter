@@ -31,7 +31,7 @@ export default function Home() {
       {siteIntro.intro.length > 0 && (
         <div className="pb-10 sm:pb-14">
           {siteIntro.intro.map((p, i) => (
-            <p key={i} className="text-base sm:text-lg leading-loose mb-5 last:mb-0">
+            <p key={i} className="text-lg sm:text-xl leading-loose mb-5 last:mb-0">
               {p}
             </p>
           ))}
@@ -39,14 +39,17 @@ export default function Home() {
       )}
 
       <main>
-        {essays.map((essay) => (
-          <TextCard
-            key={essay.slug}
-            title={essay.title}
-            slug={essay.slug}
-            excerpt={getExcerpt(essay)}
-          />
-        ))}
+        {essays.map((essay) => {
+          const len = config.texts?.[essay.slug]?.excerptLength ?? 300;
+          return (
+            <TextCard
+              key={essay.slug}
+              title={essay.title}
+              slug={essay.slug}
+              excerpt={getExcerpt(essay, len)}
+            />
+          );
+        })}
       </main>
 
       <AuthorSection name={name} bio={bio} role={role} />

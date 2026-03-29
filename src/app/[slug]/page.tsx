@@ -94,7 +94,7 @@ export default async function EssayPage({
         <Quote text={quote} />
       </header>
 
-      <main className="text-base sm:text-lg leading-loose">
+      <main className="text-lg sm:text-xl leading-loose">
         {elements.map((el, idx) =>
           el.type === "poem" ? (
             <blockquote
@@ -127,7 +127,7 @@ export default async function EssayPage({
               key={other.slug}
               title={other.title}
               slug={other.slug}
-              excerpt={getExcerpt(other)}
+              excerpt={getExcerpt(other, config.texts?.[other.slug]?.excerptLength ?? 300)}
             />
           ))}
         </section>

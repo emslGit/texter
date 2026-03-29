@@ -46,23 +46,18 @@ export function getManifest() {
   return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug, source: e.source }));
 }
 
-export function getExcerpt(essay: Essay, maxLen = 300): string {
+export function getExcerpt(essay: Essay, maxLen: number): string {
   const paras = essay.sections.flatMap((s) => s.paragraphs);
-  let text = "";
-  for (const p of paras) {
-    if (text.length + p.length + 1 > maxLen) {
-      // Add partial next paragraph, cut at last sentence boundary
-      const remaining = maxLen - text.length;
-      const partial = p.slice(0, remaining);
-      const lastDot = partial.lastIndexOf(". ");
-      if (lastDot > 0) {
-        text += (text ? " " : "") + partial.slice(0, lastDot + 1);
-      } else {
-        text += (text ? " " : "") + partial + "\u2026";
-      }
-      break;
-    }
-    text += (text ? " " : "") + p;
+  // Concatenate all paragraphs, then cut at maxLen
+  const full = paras.join(" ");
+  if (full.length <= maxLen) return full;
+  // Cut and find last sentence end before the limit
+  const partial = full.slice(0, maxLen);
+  const lastDot = partial.lastIndexOf(". ");
+  if (lastDot > maxLen * 0.5) {
+    return partial.slice(0, lastDot + 1) + "\u2026";
   }
-  return text;
+  // Fall back to word boundary
+  const lastSpace = partial.lastIndexOf(" ");
+  return partial.slice(0, lastSpace) + "\u2026";
 }

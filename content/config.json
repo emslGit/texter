@@ -10,19 +10,24 @@
   },
   "texts": {
     "dar-hinnan-blev-tunn": {
-      "quote": "Vi längtar efter ett språk som öppnar för en djupare andlig erfarenhet."
+      "quote": "Vi längtar efter ett språk som öppnar för en djupare andlig erfarenhet.",
+      "excerptLength": 250
     },
     "i-minnet-uppstar-motet": {
-      "quote": "En ny erfarenhet växer ur sorgen. En erfarenhet av Närvaro."
+      "quote": "En ny erfarenhet växer ur sorgen. En erfarenhet av Närvaro.",
+      "excerptLength": 250
     },
     "det-tomma-rummet": {
-      "quote": "Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev."
+      "quote": "Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev.",
+      "excerptLength": 350
     },
     "ett-existentiellt-forband": {
-      "quote": "I gemenskapen förändras både den som berättar om sin erfarenhet och den som lyssnar."
+      "quote": "I gemenskapen förändras både den som berättar om sin erfarenhet och den som lyssnar.",
+      "excerptLength": 300
     },
     "en-djup-forbindelse": {
-      "quote": "Kraften till att orka finns just där. Längst in."
+      "quote": "Kraften till att orka finns just där. Längst in.",
+      "excerptLength": 250
     }
   }
 }
