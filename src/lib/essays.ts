@@ -46,7 +46,23 @@ export function getManifest() {
   return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug, source: e.source }));
 }
 
-export function getExcerpt(essay: Essay, maxLen = 200): string {
-  const first = essay.sections[0]?.paragraphs[0] ?? "";
-  return first.length > maxLen ? first.slice(0, maxLen) + "\u2026" : first;
+export function getExcerpt(essay: Essay, maxLen = 300): string {
+  const paras = essay.sections.flatMap((s) => s.paragraphs);
+  let text = "";
+  for (const p of paras) {
+    if (text.length + p.length + 1 > maxLen) {
+      // Add partial next paragraph, cut at last sentence boundary
+      const remaining = maxLen - text.length;
+      const partial = p.slice(0, remaining);
+      const lastDot = partial.lastIndexOf(". ");
+      if (lastDot > 0) {
+        text += (text ? " " : "") + partial.slice(0, lastDot + 1);
+      } else {
+        text += (text ? " " : "") + partial + "\u2026";
+      }
+      break;
+    }
+    text += (text ? " " : "") + p;
+  }
+  return text;
 }
