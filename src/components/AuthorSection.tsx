@@ -14,7 +14,7 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
           <img
             src="/ingegerd.jpg"
             alt={name}
-            className="w-20 h-20 object-cover object-top flex-shrink-0"
+            className="w-24 h-28 object-cover object-top flex-shrink-0"
           />
           <div>
             <h3 className="font-sans font-medium text-sm uppercase tracking-widest text-ink-muted mb-2">
