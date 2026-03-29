@@ -8,7 +8,7 @@ interface TextCardProps {
 
 export default function TextCard({ title, slug, excerpt }: TextCardProps) {
   return (
-    <article className="py-12 sm:py-16 border-t border-border/40 bg-accent/[0.04]">
+    <article className="py-12 sm:py-16 border-t border-border/40">
       <Link href={`/${slug}`} className="group block">
         <h2 className="font-serif text-2xl sm:text-3xl font-medium text-ink mb-4 group-hover:text-ink-light transition-colors">
           {title}

@@ -9,7 +9,7 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
 
   return (
     <aside className="mt-12 sm:mt-16">
-      <div className="bg-[#f6f4f0] border border-[#ddd] rounded-sm px-6 sm:px-8 py-10 sm:py-12">
+      <div className="bg-[#c8aa82]/[0.06] border border-accent/20 rounded-sm px-6 sm:px-8 py-10 sm:py-12">
         <h3 className="font-sans font-medium text-sm uppercase tracking-widest text-ink-muted mb-6">
           Om författaren
         </h3>

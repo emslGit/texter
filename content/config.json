@@ -10,23 +10,28 @@
   },
   "texts": {
     "dar-hinnan-blev-tunn": {
-      "quote": "Vi längtar efter ett språk som öppnar för en djupare andlig erfarenhet.",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "quoteAuthor": "Lorem Ipsum, Consectetur (1984)",
       "excerptLength": 380
     },
     "i-minnet-uppstar-motet": {
-      "quote": "En ny erfarenhet växer ur sorgen. En erfarenhet av Närvaro.",
+      "quote": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "quoteAuthor": "Lorem Ipsum",
       "excerptLength": 250
     },
     "det-tomma-rummet": {
-      "quote": "Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev.",
+      "quote": "",
+      "quoteAuthor": "",
       "excerptLength": 350
     },
     "ett-existentiellt-forband": {
-      "quote": "I gemenskapen förändras både den som berättar om sin erfarenhet och den som lyssnar.",
+      "quote": "",
+      "quoteAuthor": "",
       "excerptLength": 300
     },
     "en-djup-forbindelse": {
-      "quote": "Kraften till att orka finns just där. Längst in.",
+      "quote": "",
+      "quoteAuthor": "",
       "excerptLength": 250
     }
   }

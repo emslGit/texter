@@ -6,6 +6,7 @@ import { getAllEssays, getEssay, getManifest, getExcerpt } from "@/lib/essays";
 import AuthorSection from "@/components/AuthorSection";
 import Quote from "@/components/Quote";
 import TextCard from "@/components/TextCard";
+import FadeIn from "@/components/FadeIn";
 
 function getConfig() {
   try {
@@ -51,6 +52,7 @@ export default async function EssayPage({
   const config = getConfig();
   const { name, bio, role } = config.author ?? {};
   const quote = config.texts?.[slug]?.quote ?? "";
+  const quoteAuthor = config.texts?.[slug]?.quoteAuthor ?? "";
   const otherEssays = getAllEssays().filter((e) => e.slug !== slug);
 
   // Build paragraph elements with poem detection
@@ -77,7 +79,7 @@ export default async function EssayPage({
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6">
+    <div className="page-enter max-w-2xl mx-auto px-4 sm:px-6">
       <nav className="pt-6 pb-2">
         <Link
           href="/"
@@ -91,7 +93,7 @@ export default async function EssayPage({
         <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink leading-tight mb-6">
           {essay.title}
         </h1>
-        <Quote text={quote} />
+        <Quote text={quote} author={quoteAuthor} />
       </header>
 
       <main className="text-lg sm:text-xl leading-loose">
@@ -115,10 +117,13 @@ export default async function EssayPage({
         )}
       </main>
 
-      <AuthorSection name={name} bio={bio} role={role} />
+      <FadeIn>
+        <AuthorSection name={name} bio={bio} role={role} />
+      </FadeIn>
 
       {otherEssays.length > 0 && (
-        <section className="border-t border-border pt-12 pb-4">
+        <FadeIn>
+        <section className="pt-12 pb-4">
           <p className="font-sans font-medium text-sm text-ink-muted uppercase tracking-widest mb-4">
             Fler texter
           </p>
@@ -131,6 +136,7 @@ export default async function EssayPage({
             />
           ))}
         </section>
+        </FadeIn>
       )}
 
       <div className="py-12" />

@@ -4,6 +4,7 @@ import { getAllEssays, getSiteIntro, getExcerpt } from "@/lib/essays";
 import AuthorSection from "@/components/AuthorSection";
 import Epigraph from "@/components/Epigraph";
 import TextCard from "@/components/TextCard";
+import FadeIn from "@/components/FadeIn";
 
 function getConfig() {
   try {
@@ -20,7 +21,7 @@ export default function Home() {
   const { name, bio, role } = config.author ?? {};
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6">
+    <div className="page-enter max-w-2xl mx-auto px-4 sm:px-6">
       <header className="pt-20 pb-8 sm:pt-28 sm:pb-12 text-center">
         <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink mb-10 sm:mb-14">
           {config.site?.title ?? "Texter"}
@@ -29,30 +30,35 @@ export default function Home() {
       </header>
 
       {siteIntro.intro.length > 0 && (
-        <div className="pb-10 sm:pb-14">
-          {siteIntro.intro.map((p, i) => (
-            <p key={i} className="text-lg sm:text-xl leading-loose mb-5 last:mb-0">
-              {p}
-            </p>
-          ))}
-        </div>
+        <FadeIn>
+          <div className="pb-10 sm:pb-14">
+            {siteIntro.intro.map((p, i) => (
+              <p key={i} className="text-lg sm:text-xl leading-relaxed [&:not(:first-child)]:indent-8">
+                {p}
+              </p>
+            ))}
+          </div>
+        </FadeIn>
       )}
 
       <main>
-        {essays.map((essay) => {
+        {essays.map((essay, i) => {
           const len = config.texts?.[essay.slug]?.excerptLength ?? 300;
           return (
-            <TextCard
-              key={essay.slug}
-              title={essay.title}
-              slug={essay.slug}
-              excerpt={getExcerpt(essay, len)}
-            />
+            <FadeIn key={essay.slug} delay={i * 0.08}>
+              <TextCard
+                title={essay.title}
+                slug={essay.slug}
+                excerpt={getExcerpt(essay, len)}
+              />
+            </FadeIn>
           );
         })}
       </main>
 
-      <AuthorSection name={name} bio={bio} role={role} />
+      <FadeIn>
+        <AuthorSection name={name} bio={bio} role={role} />
+      </FadeIn>
       <div className="py-12" />
     </div>
   );
