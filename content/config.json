@@ -4,8 +4,25 @@
     "description": "En samling texter om tro, erfarenhet och mänskliga möten."
   },
   "author": {
-    "name": "Författarens namn",
-    "role": "Präst och teolog",
-    "bio": "En kort beskrivning av författaren placeras här. Du kan redigera content/config.json för att uppdatera denna text."
+    "name": "Ingegerd Slätteby",
+    "role": "Sjukhuspräst och teolog",
+    "bio": "En kort beskrivning av författaren placeras här."
+  },
+  "texts": {
+    "dar-hinnan-blev-tunn": {
+      "quote": "Vi längtar efter ett språk som öppnar för en djupare andlig erfarenhet."
+    },
+    "i-minnet-uppstar-motet": {
+      "quote": "En ny erfarenhet växer ur sorgen. En erfarenhet av Närvaro."
+    },
+    "det-tomma-rummet": {
+      "quote": "Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev."
+    },
+    "ett-existentiellt-forband": {
+      "quote": "I gemenskapen förändras både den som berättar om sin erfarenhet och den som lyssnar."
+    },
+    "en-djup-forbindelse": {
+      "quote": "Kraften till att orka finns just där. Längst in."
+    }
   }
 }

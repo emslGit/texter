@@ -88,9 +88,7 @@ export default function Home() {
 
       <AuthorSection name={name} bio={bio} role={role} />
 
-      <footer className="py-12">
-        <div className="border-t border-border" />
-      </footer>
+      <div className="py-12" />
     </div>
   );
 }

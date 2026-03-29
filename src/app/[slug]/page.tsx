@@ -34,6 +34,7 @@ export default async function EssayPage({
 
   const config = getConfig();
   const { name, bio, role } = config.author ?? {};
+  const quote = config.texts?.[slug]?.quote ?? "";
   const otherEssays = getAllEssays().filter((e) => e.slug !== slug);
 
   // Known poem starters for detecting verse blocks
@@ -85,11 +86,16 @@ export default async function EssayPage({
         </Link>
       </nav>
 
-      {/* Title */}
+      {/* Title + quote */}
       <header className="pt-8 pb-10 sm:pt-12 sm:pb-14">
         <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink leading-tight">
           {essay.title}
         </h1>
+        {quote && (
+          <p className="mt-6 italic text-ink-light text-base sm:text-lg leading-relaxed">
+            {quote}
+          </p>
+        )}
       </header>
 
       {/* Body */}
@@ -153,9 +159,7 @@ export default async function EssayPage({
         </section>
       )}
 
-      <footer className="py-12">
-        <div className="border-t border-border" />
-      </footer>
+      <div className="py-12" />
     </div>
   );
 }
