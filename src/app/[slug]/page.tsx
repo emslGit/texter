@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const essay = getEssay(slug);
   const cfg = getConfig();
-  const siteTitle = cfg.site?.title ?? "Ingegerds texter";
+  const siteTitle = "Ingegerds texter";
   if (!essay) return { title: siteTitle };
   const description = getExcerpt(essay, 160).replace(/…$/, "");
   return {
