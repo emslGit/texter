@@ -21,7 +21,7 @@ export default function TextCard({ title, slug, excerpt }: TextCardProps) {
       )}
       <Link
         href={`/${slug}`}
-        className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest hover:text-ink transition-colors"
+        className="inline-block font-sans font-medium text-xs text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
       >
         Läs texten →
       </Link>
