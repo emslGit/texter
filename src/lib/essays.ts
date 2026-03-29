@@ -55,7 +55,7 @@ export function getExcerpt(essay: Essay, maxLen: number): string {
   const partial = full.slice(0, maxLen);
   const lastDot = partial.lastIndexOf(". ");
   if (lastDot > maxLen * 0.5) {
-    return partial.slice(0, lastDot + 1) + "\u2026";
+    return partial.slice(0, lastDot) + "\u2026";
   }
   // Fall back to word boundary
   const lastSpace = partial.lastIndexOf(" ");

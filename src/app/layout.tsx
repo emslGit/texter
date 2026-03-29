@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="text-center">
             <Link
               href="/"
-              className="font-sans text-xs uppercase tracking-widest text-ink-muted hover:text-ink transition-colors"
+              className="font-sans text-[13px] uppercase tracking-widest text-ink-muted hover:text-ink transition-colors"
             >
               Ingegerd Slätteby
             </Link>
