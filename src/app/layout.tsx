@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -29,12 +28,9 @@ export default function RootLayout({
       <body className="bg-parchment text-ink font-serif antialiased leading-relaxed">
         <header className="border-b border-border/30 py-3">
           <div className="text-center">
-            <Link
-              href="/"
-              className="font-sans text-[13px] uppercase tracking-widest text-ink-muted hover:text-ink transition-colors"
-            >
+            <span className="font-sans text-[13px] uppercase tracking-widest text-ink-muted">
               Ingegerd Slätteby
-            </Link>
+            </span>
           </div>
         </header>
         {children}

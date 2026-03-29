@@ -9,10 +9,10 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
 
   return (
     <aside className="mt-12 sm:mt-16">
-      <div className="bg-[#c8aa82]/[0.06] border border-accent/20 rounded-sm px-6 sm:px-8 py-10 sm:py-12">
+      <div className="bg-[#c8aa82]/[0.06] border border-accent/10 rounded-sm px-6 sm:px-8 py-10 sm:py-12">
         <div className="flex items-center gap-6 mb-6">
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/ingegerd.jpg`}
+            src="/ingegerd.jpg"
             alt={name}
             className="w-24 h-28 object-cover object-top flex-shrink-0"
           />
