@@ -23,7 +23,7 @@ export default function TextCard({ title, slug, excerpt }: TextCardProps) {
         href={`/${slug}`}
         className="inline-block font-sans font-medium text-sm text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
       >
-        Läs texten →
+        Läs hela →
       </Link>
     </article>
   );

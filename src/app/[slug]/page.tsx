@@ -81,7 +81,7 @@ export default async function EssayPage({
       <nav className="pt-6 pb-2">
         <Link
           href="/"
-          className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest hover:text-ink transition-colors"
+          className="font-sans font-medium text-sm text-ink-muted uppercase tracking-widest hover:text-ink transition-colors"
         >
           ← Alla texter
         </Link>
@@ -119,7 +119,7 @@ export default async function EssayPage({
 
       {otherEssays.length > 0 && (
         <section className="border-t border-border pt-12 pb-4">
-          <p className="font-sans font-light text-xs text-ink-muted uppercase tracking-widest mb-4">
+          <p className="font-sans font-medium text-sm text-ink-muted uppercase tracking-widest mb-4">
             Fler texter
           </p>
           {otherEssays.map((other) => (
