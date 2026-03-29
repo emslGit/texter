@@ -1,0 +1,11 @@
+{
+  "site": {
+    "title": "Texter",
+    "description": "En samling texter om tro, erfarenhet och mänskliga möten."
+  },
+  "author": {
+    "name": "Författarens namn",
+    "role": "Präst och teolog",
+    "bio": "En kort beskrivning av författaren placeras här. Du kan redigera content/config.json för att uppdatera denna text."
+  }
+}
