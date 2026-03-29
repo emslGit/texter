@@ -11,3 +11,13 @@
   --color-border-light: #e8e3da;
   --color-accent: #c8bfad;
 }
+
+@layer components {
+  /* Quote typography — single source of truth for all pull quotes */
+  .type-quote {
+    @apply text-xl sm:text-2xl italic text-ink-light leading-loose;
+  }
+  .type-quote-author {
+    @apply block text-base not-italic text-ink-muted tracking-wide mt-4;
+  }
+}

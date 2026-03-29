@@ -6,7 +6,7 @@ export default function Quote({ text }: QuoteProps) {
   if (!text) return null;
 
   return (
-    <p className="italic text-ink-light text-lg sm:text-xl leading-relaxed text-center">
+    <p className="type-quote text-center">
       &ldquo;{text}&rdquo;
     </p>
   );

@@ -108,7 +108,7 @@ export default async function EssayPage({
               ))}
             </blockquote>
           ) : (
-            <p key={idx} className="mb-5">
+            <p key={idx} className={idx === 0 || elements[idx - 1].type === "poem" ? "" : "indent-[1.5em]"}>
               {el.lines[0]}
             </p>
           )

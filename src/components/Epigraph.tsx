@@ -9,14 +9,11 @@ export default function Epigraph({ lines }: EpigraphProps) {
     <blockquote className="text-center">
       {lines.map((line, i) =>
         line.startsWith("(") ? (
-          <cite
-            key={i}
-            className="block mt-4 text-sm not-italic text-ink-muted tracking-wide"
-          >
+          <cite key={i} className="type-quote-author">
             {line.replace(/^\(\s*/, "\u2014 ").replace(/\s*\)$/, "")}
           </cite>
         ) : (
-          <p key={i} className="text-lg sm:text-xl italic text-ink-light leading-loose">
+          <p key={i} className="type-quote">
             {line}
           </p>
         )
