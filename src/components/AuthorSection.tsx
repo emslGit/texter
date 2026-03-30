@@ -8,8 +8,8 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
   if (!name && !bio) return null;
 
   return (
-    <aside className="mt-12 sm:mt-16">
-      <div className="bg-[#c8aa82]/[0.06] border border-accent/10 rounded-sm px-6 sm:px-8 py-10 sm:py-12">
+    <aside className="mt-12 sm:mt-16 -mx-4 sm:mx-0">
+      <div className="bg-[#c8aa82]/[0.06] border-y sm:border border-accent/10 sm:rounded-sm px-6 sm:px-8 py-10 sm:py-12">
         <div className="flex items-center gap-6 mb-6">
           <img
             src="/ingegerd.jpg"
