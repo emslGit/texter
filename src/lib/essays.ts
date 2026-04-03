@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 
-const CACHE_DIR = join(process.cwd(), "cache");
+const CACHE_DIR = join(process.cwd(), "content");
 
 export interface Section {
   heading: string;
@@ -11,7 +11,6 @@ export interface Section {
 
 export interface Essay {
   title: string;
-  source: string;
   slug: string;
   sections: Section[];
 }
@@ -43,7 +42,7 @@ export function getEssay(slug: string): Essay | null {
 }
 
 export function getManifest() {
-  return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug, source: e.source }));
+  return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug }));
 }
 
 export function getExcerpt(essay: Essay, maxLen: number): string {

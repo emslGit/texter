@@ -1,6 +1,6 @@
 /**
- * ODT parser: reads .odt files from content/ and outputs structured JSON to cache/
- * Caches by file hash so unchanged files are skipped.
+ * ODT parser: reads .odt files from content/ and outputs structured JSON to generated/
+ * Copy generated/site.json to content/site.json to use as the source of truth.
  */
 
 import { createHash } from "crypto";
@@ -14,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, "..");
 const CONTENT_DIR = join(ROOT, "content");
-const CACHE_DIR = join(ROOT, "cache");
+const CACHE_DIR = join(ROOT, "generated");
 
 interface Paragraph {
   text: string;
@@ -30,7 +30,6 @@ interface Section {
 
 interface Essay {
   title: string;
-  source: string;
   slug: string;
   sections: Section[];
 }
@@ -227,8 +226,7 @@ function main() {
     const result = parseXml(xml);
     intro = result.siteIntro;
     for (const essay of result.essays) {
-      essay.source = filename;
-      allTexts.push(essay);
+allTexts.push(essay);
     }
   }
 
