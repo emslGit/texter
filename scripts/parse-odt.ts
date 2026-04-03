@@ -213,7 +213,7 @@ function main() {
   if (existsSync(hashFile) && readFileSync(hashFile, "utf-8") === allHashes && existsSync(cacheFile)) {
     console.log("  cached (no changes)");
     const site = JSON.parse(readFileSync(cacheFile, "utf-8"));
-    console.log(`\nDone! ${site.texts.length} text(s) → cache/site.json`);
+    console.log(`\nDone! ${site.texts.length} text(s) → generated/site.json`);
     return;
   }
 
@@ -234,7 +234,7 @@ allTexts.push(essay);
   writeFileSync(cacheFile, JSON.stringify(site, null, 2));
   writeFileSync(hashFile, allHashes);
 
-  console.log(`\nDone! ${allTexts.length} text(s) → cache/site.json`);
+  console.log(`\nDone! ${allTexts.length} text(s) → generated/site.json`);
 }
 
 main();

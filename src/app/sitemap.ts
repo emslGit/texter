@@ -1,5 +1,7 @@
 import { getManifest } from "@/lib/essays";
 
+export const dynamic = "force-static";
+
 const BASE = "https://ingegerdstexter.se";
 
 export default function sitemap() {
