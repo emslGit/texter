@@ -9,7 +9,7 @@ export function renderWithInnerQuotes(text: string) {
   })
 }
 
-export function renderBlock(block: Block, idx: number, prevBlock?: Block) {
+export function renderBlock(block: Block, idx: number, prevBlock?: Block, nextBlock?: Block) {
   switch (block.type) {
     case "heading":
       return block.level === 1 ? (
@@ -30,7 +30,7 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block) {
 
     case "blockquote":
       return (
-        <blockquote key={idx} className="my-8 text-center">
+        <blockquote key={idx} className={`${nextBlock?.type === "author" ? "mt-8" : "my-8"} text-center`}>
           {block.lines.map((line, li) => (
             <p key={li} className="type-quote">{renderWithInnerQuotes(line)}</p>
           ))}
@@ -52,7 +52,7 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block) {
       return (
         <blockquote
           key={idx}
-          className="my-8 py-5 px-5 sm:py-6 sm:px-8 border-l-2 border-accent bg-accent/5"
+          className={`${nextBlock?.type === "author" ? "mt-8" : "my-8"} py-5 px-5 sm:py-6 sm:px-8 border-l-2 border-accent bg-accent/5`}
         >
           {block.lines.map((line, li) => (
             <p key={li} className="italic text-ink-light leading-relaxed last:mb-0">

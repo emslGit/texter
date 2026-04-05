@@ -70,7 +70,7 @@ export default async function EssayPage({
       </header>
 
       <main className="text-lg sm:text-xl">
-        {essay.blocks.map((block, idx) => renderBlock(block, idx, essay.blocks[idx - 1]))}
+        {essay.blocks.map((block, idx) => renderBlock(block, idx, essay.blocks[idx - 1], essay.blocks[idx + 1]))}
       </main>
 
       <FadeIn>

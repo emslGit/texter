@@ -12,11 +12,16 @@ Den verklighet hon hittar i olika arkiv och möter i berättelser gör så mång
 Det finns en berättelse  i vår svenska litteratur, som handlar om samma hopp. Det är Sven Delblanc, som berättar om sin uppväxt på en enslig gård i Sörmland, en uppväxt fylld av våld. En dag när han flytt hemifrån upptäckte han i skogen ett blommande körsbärsträd.
 
 ```poem
-“Det stod om våren som en fontän av blomning, i juli dignande av mörkröda bär. Ur ett snitt i barken dröp doftande kåda. Trädet var en vän och syster, som ville ge honom ett viktigt budskap. Något om förtröstan trots allt, ett besked om en givande kärlek, som växer ur den kargaste mark. Jesus vek aldrig av vägen för att knacka på Mölnas port. Bara det blommande körsbärsträdet gav pojken den tro på livet, som hejdade honom på galenskapens tröskel, de många gånger han var på väg ut i mörkret.”
+“Det stod om våren som en fontän av blomning, i juli dignande av mörkröda bär. Ur ett snitt i barken dröp doftande kåda.
+Trädet var en vän och syster, som ville ge honom ett viktigt budskap.
+Något om förtröstan trots allt, ett besked om en givande kärlek, som växer ur den kargaste mark.
+Jesus vek aldrig av vägen för att knacka på Mölnas port.
+Bara det blommande körsbärsträdet gav pojken den tro på livet,
+som hejdade honom på galenskapens tröskel, de många gånger han var på väg ut i mörkret.”
 ```
 > — ur Livets ax
 
-“Titta, man ser redan knoppar,” säger mormor Valentina när hon går i sin vinterträdgård i Ukraina . Hennes barnbarn Victoria Belim skriver om thauma, som är det grekiska ordet för underverk. Inte underverk i någon övernaturlig mening. Thauma är vardagens underverk, en glimt av det gudomliga genom den slöja som skiljer det dödligas värld från ett himmelskt rike. I den ortodoxa traditionen är gränsen mellan de båda världarna flytande och varje ögonblick kan vara en portal och en övergång.
+“Titta, man ser redan knoppar,” säger mormor Valentina när hon går i sin vinterträdgård i Ukraina. Hennes barnbarn Victoria Belim skriver om thauma, som är det grekiska ordet för underverk. Inte underverk i någon övernaturlig mening. Thauma är vardagens underverk, en glimt av det gudomliga genom den slöja som skiljer det dödligas värld från ett himmelskt rike. I den ortodoxa traditionen är gränsen mellan de båda världarna flytande och varje ögonblick kan vara en portal och en övergång.
 
 I de bibliska texterna möter vi ofta gestalter, som alla har dragits in i dessa livförändrande erfarenheter, där slöjan till det gudomliga har varit mycket tunn. Som profeten Jeremia, Jesus och många andra. Såväl Jeremia som Jesus levde i samhällen med ständiga hot från en våldsam övermakt. Som det ukrainska.
 
