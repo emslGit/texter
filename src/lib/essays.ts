@@ -15,7 +15,7 @@ export interface Essay {
   blocks: Block[];
 }
 
-export interface TextConfig {
+interface TextConfig {
   slug: string;
   quote?: string;
   quoteAuthor?: string;

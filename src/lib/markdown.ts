@@ -1,7 +1,7 @@
 // Converts straight ASCII quotes to typographic curly quotes.
 // Curly quotes already in the source (e.g. from ODT migration) are left untouched
 // because they don't match the ASCII code points this targets.
-export function smartQuotes(text: string): string {
+function smartQuotes(text: string): string {
   return (
     text
       // Opening double: after whitespace, start of string, or opening bracket
