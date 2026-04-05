@@ -80,9 +80,6 @@ export default async function EssayPage({
       {otherEssays.length > 0 && (
         <FadeIn>
           <section className="pt-12 pb-4">
-            <p className="font-sans font-medium text-sm text-ink-muted uppercase tracking-widest mb-4">
-              Fler texter
-            </p>
             {otherEssays.map((other) => (
               <TextCard
                 key={other.slug}
