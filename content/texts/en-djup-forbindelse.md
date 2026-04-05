@@ -2,11 +2,11 @@
 
 Tro är inte ett försanthållande av trossatser. Ordet religion, som enligt vissa forskare går tillbaka på det latinska ordet religare, betyder att återknyta, förbinda. Ett återknytande med djupen, en förbindelse, ett band som inte går av. Vårt innersta fäste. Rotfäst. Ett lod. Detta har förblivit den viktigaste och mest pålitliga bilden för min gudserfarenhet. Tilliten som ett förbund, en förbindelse.
 
-Religionsforskaren Karen Armstrong har berättat, att när människor av olika religion skall beskriva den djupaste och viktigaste religiösa erfarenheten, den som har med den djupaste meningen att göra, så verkar de beskriva samma erfarenhet: Nåden att få bli så djupt berörd att man lyfts ur sig själv, glömmer sig själv, och får erfara delaktigheten i ett större sammanhang och ett genuint möte med en annan människa. Det verkar finnas en förbindelse mellan ”dessa Andra” : det lilla barnet inom oss,  Självet, som är större och djupare än vårt jag och som vi bara kan ta emot, vår medmänniska, barnen, de mest utsatta. Gudserfarenheten hör samman med mötet med den Andre. Med ett Du.
+Religionsforskaren Karen Armstrong har berättat, att när människor av olika religion skall beskriva den djupaste och viktigaste religiösa erfarenheten, den som har med den djupaste meningen att göra, så verkar de beskriva samma erfarenhet: Nåden att få bli så djupt berörd att man lyfts ur sig själv, glömmer sig själv, och får erfara delaktigheten i ett större sammanhang och ett genuint möte med en annan människa. Det verkar finnas en förbindelse mellan ”dessa Andra” : det lilla barnet inom oss, Självet, som är större och djupare än vårt jag och som vi bara kan ta emot, vår medmänniska, barnen, de mest utsatta. Gudserfarenheten hör samman med mötet med den Andre. Med ett Du.
 
 Under mina år som sjukhuspräst fick jag ofta frågan: Hur orkar du? Du har väl andra intressen, så att du kan fylla på utanför jobbet. Jag svarade alltid att det hade jag. Men samtidigt undrade jag om det var det rätta svaret. För visst hade jag min lilla familj, mina vänner, min odling..., men det var något annat, som jag inte riktigt hittade ord för först.
 
-Men det gjorde jag så småningom, för svaret fanns där längst in. I det djupa möte som ofta uppstår, då livet är totalt utsatt, så läggs inga bördor på. Kraften till att orka finns just där. Längst in. Där  vi möttes, där kunde vi få känna att vi delade något djupare. Bortom orden.
+Men det gjorde jag så småningom, för svaret fanns där längst in. I det djupa möte som ofta uppstår, då livet är totalt utsatt, så läggs inga bördor på. Kraften till att orka finns just där. Längst in. Där vi möttes, där kunde vi få känna att vi delade något djupare. Bortom orden.
 
 ## Det är svårt för oss naturvetare att tro.
 

@@ -19,10 +19,10 @@ Att barnet i hans famn – med sin förundran och sin tillit – är väldigt n�
 
 Jesus hade ett innerligt förhållande till Gud, som en djup inre relation. Han var en mystiker. Det innebar säkert också en stor ensamhet med så djupa insikter. Men jag tror att han känner igen det här djupet i barnens seende. Det spelar mellan dom. Det klingar.
 
-Man kan säga att dopet är ett tecken på denna enkla, djupa, innerliga gemenskap, som är svår att sätta ord på, men som kommer till uttryck i barnets öppenhet, tillit och förundran och som Jesus kallar Guds rike. Man skulle mycket kort och enkelt kunna sammanfatta  livssynen i dopet så:
+Man kan säga att dopet är ett tecken på denna enkla, djupa, innerliga gemenskap, som är svår att sätta ord på, men som kommer till uttryck i barnets öppenhet, tillit och förundran och som Jesus kallar Guds rike. Man skulle mycket kort och enkelt kunna sammanfatta livssynen i dopet så:
 
 Att ingenting som händer kan bryta den här djupa gudsrelationen. Den finns kvar.
 
-Jesu vänner fick erfara detta efter hans död. Först var livet bara enorm sorg och tomhet. Men så småningom bröt livet fram igen. Inte som förut, men så småningom växte det levande  igen.  Denna djupa erfarenhet präglar dopet. Ner i vatten och upp igen.
+Jesu vänner fick erfara detta efter hans död. Först var livet bara enorm sorg och tomhet. Men så småningom bröt livet fram igen. Inte som förut, men så småningom växte det levande igen. Denna djupa erfarenhet präglar dopet. Ner i vatten och upp igen.
 
-Vattnet är en symbol för livet. Vattnet är dubbelt. Livsnödvändigt, underbart, men det kan också vara livsfarligt. Vattnet kan bära, men det kan också hota.  Precis som livet, som innehåller både ljus och skugga, glädje och sorg. Dopet berättar om ett hopp. Att Gud är tätt, tätt intill oss, när vi tar oss igenom de svåraste passagerna.  Därför är det inte bara en punkt. Det är mer som en röd tråd, som följer med genom livet, och kan ge uppmuntran och hopp. Och det är när vi inte vågar tro på hoppet, som vi behöver den här röda tråden allra mest.
+Vattnet är en symbol för livet. Vattnet är dubbelt. Livsnödvändigt, underbart, men det kan också vara livsfarligt. Vattnet kan bära, men det kan också hota. Precis som livet, som innehåller både ljus och skugga, glädje och sorg. Dopet berättar om ett hopp. Att Gud är tätt, tätt intill oss, när vi tar oss igenom de svåraste passagerna. Därför är det inte bara en punkt. Det är mer som en röd tråd, som följer med genom livet, och kan ge uppmuntran och hopp. Och det är när vi inte vågar tro på hoppet, som vi behöver den här röda tråden allra mest.

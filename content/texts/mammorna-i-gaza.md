@@ -57,4 +57,4 @@ Dom krav och bördor som vi uppfattar läggs på oss är säkert annorlunda. Men
 
 Det går inte att bevara sin mänsklighet utan att gå in under det ok, som innebär kärlek och delande. Det oket är en frihet. Så mycket faller bort och så mycket faller på plats. Det sker inget under om vi bara tittar på – vi måste gå in under oket – måste våga delta, vara en del – då kan undret ske. Mellan oss, genom oss, kan det gudomliga bryta fram.
 
-Och det var ju så Jesus sa vid den sista måltiden: Fortsätt att samlas, dela brödet med varandra och minns mig.  Där är jag mitt ibland er. När vi delar med varandra. Där är Närvaron störst.
+Och det var ju så Jesus sa vid den sista måltiden: Fortsätt att samlas, dela brödet med varandra och minns mig. Där är jag mitt ibland er. När vi delar med varandra. Där är Närvaron störst.

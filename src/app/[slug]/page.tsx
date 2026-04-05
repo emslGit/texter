@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const essay = getEssay(slug);
   const siteTitle = "Ingegerds texter";
   if (!essay) return { title: siteTitle };
-  const description = getExcerpt(essay, 160).replace(/…$/, "");
+  const description = getExcerpt(essay, 160).replace(/...$/, "");
   return {
     title: `${essay.title} — ${siteTitle}`,
     description,

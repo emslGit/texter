@@ -17,7 +17,7 @@ Det är bara en sådan tro, som kan bli en kämpande tro. Bibelberättelserna in
 
 Så som en patient sa till mig på sjukhuset:
 
-”På något sätt så ska det gå. Även om jag skulle…(och vi visste båda att han menade: om jag skulle dö), så ska det gå på något sätt. Detta är vad jag vill att mina barn ska få med sig i livet: på något sätt så ska det gå.”
+”På något sätt så ska det gå. Även om jag skulle...(och vi visste båda att han menade: om jag skulle dö), så ska det gå på något sätt. Detta är vad jag vill att mina barn ska få med sig i livet: på något sätt så ska det gå.”
 
 Werner G. Jeanrond, tidigare professor i systematisk teologi i Lund, skriver i sin bok ”Guds närvaro” att vi idag är befriade ifrån en teistisk gudsmodell, dvs där Gud är ett objekt som finns och som vi kan vara experter på eller ta avstånd ifrån.
 

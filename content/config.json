@@ -9,16 +9,49 @@
     "bio": "En kort beskrivning av f\u00f6rfattaren placeras h\u00e4r."
   },
   "texts": [
-    { "slug": "dar-hinnan-blev-tunn",                    "excerptLength": 380 },
-    { "slug": "i-minnet-uppstar-motet",                  "excerptLength": 250 },
-    { "slug": "det-tomma-rummet",                        "excerptLength": 350 },
-    { "slug": "ett-existentiellt-forband",               "excerptLength": 300 },
-    { "slug": "en-djup-forbindelse",                     "excerptLength": 250 },
-    { "slug": "den-dolda-langtan",                       "excerptLength": 300 },
-    { "slug": "nar-nagon-ser-ar-vi-nara-det-gudomliga",  "excerptLength": 300 },
-    { "slug": "gud-vilken-love-story",                   "excerptLength": 300 },
-    { "slug": "titta-man-ser-redan-knoppar",             "excerptLength": 300 },
-    { "slug": "resiliens",                               "excerptLength": 300 },
-    { "slug": "mammorna-i-gaza",                         "excerptLength": 300 }
+    {
+      "slug": "dar-hinnan-blev-tunn",
+      "excerptLength": 380
+    },
+    {
+      "slug": "i-minnet-uppstar-motet",
+      "excerptLength": 250
+    },
+    {
+      "slug": "det-tomma-rummet",
+      "excerptLength": 350
+    },
+    {
+      "slug": "ett-existentiellt-forband",
+      "excerptLength": 300
+    },
+    {
+      "slug": "en-djup-forbindelse",
+      "excerptLength": 250
+    },
+    {
+      "slug": "den-dolda-langtan",
+      "excerptLength": 300
+    },
+    {
+      "slug": "nar-nagon-ser-ar-vi-nara-det-gudomliga",
+      "excerptLength": 300
+    },
+    {
+      "slug": "gud-vilken-love-story",
+      "excerptLength": 300
+    },
+    {
+      "slug": "titta-man-ser-redan-knoppar",
+      "excerptLength": 300
+    },
+    {
+      "slug": "resiliens",
+      "excerptLength": 300
+    },
+    {
+      "slug": "mammorna-i-gaza",
+      "excerptLength": 300
+    }
   ]
 }
