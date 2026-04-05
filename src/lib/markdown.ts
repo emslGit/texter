@@ -21,7 +21,7 @@ function smartQuotes(text: string): string {
 
 export type Block =
   | { type: "heading"; level: 1 | 2; text: string }
-  | { type: "blockquote"; lines: string[] }
+  | { type: "blockquote"; lines: string[]; align?: "left" }
   | { type: "author"; lines: string[] }
   | { type: "poem"; lines: string[] }
   | { type: "paragraph"; text: string };
@@ -35,8 +35,10 @@ export function parseMarkdown(raw: string): { title: string; quote: string; quot
   while (i < lines.length) {
     const line = lines[i];
 
-    // Quote fenced block
-    if (line.trimEnd() === "```quote") {
+    // Quote fenced block (```quote or ```quote left)
+    const quoteMatch = line.trimEnd().match(/^```quote(?:\s+(left))?$/);
+    if (quoteMatch) {
+      const align = quoteMatch[1] as "left" | undefined;
       const quoteLines: string[] = [];
       i++;
       while (i < lines.length && lines[i].trimEnd() !== "```") {
@@ -45,7 +47,7 @@ export function parseMarkdown(raw: string): { title: string; quote: string; quot
       }
       i++; // skip closing ```
       if (quoteLines.some((l) => l.trim())) {
-        blocks.push({ type: "blockquote", lines: quoteLines.map(smartQuotes) });
+        blocks.push({ type: "blockquote", lines: quoteLines.map(smartQuotes), ...(align && { align }) });
       }
       continue;
     }

@@ -1,9 +1,12 @@
 # Mammorna i Gaza
 
 ```quote
-“En väninna från en stad långt borta från ett fjärran språk frågade:
+“En väninna från en stad långt borta
+från ett fjärran språk
+frågade:
 Vad kräver ni? Säg det högt
-Hungern log svagt och svarade utan att tänka:
+Hungern log svagt och svarade
+utan att tänka:
 Bröd”
 ```
 > — Nima Hasan

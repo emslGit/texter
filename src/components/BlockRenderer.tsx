@@ -29,6 +29,17 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block, nextBl
       );
 
     case "blockquote":
+      if (block.align === "left") {
+        return (
+          <div key={idx} className={`${nextBlock?.type === "author" ? "mt-8" : "my-8"} flex justify-center`}>
+            <blockquote className="text-left">
+              {block.lines.map((line, li) => (
+                <p key={li} className="type-quote">{renderWithInnerQuotes(line)}</p>
+              ))}
+            </blockquote>
+          </div>
+        );
+      }
       return (
         <blockquote key={idx} className={`${nextBlock?.type === "author" ? "mt-8" : "my-8"} text-center`}>
           {block.lines.map((line, li) => (
@@ -38,9 +49,21 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block, nextBl
       );
 
     case "author": {
-      const centered = prevBlock?.type === "blockquote";
+      const afterQuoteOrPoem = prevBlock?.type === "blockquote" || prevBlock?.type === "poem";
+      const isLeftAligned = prevBlock?.type === "blockquote" && prevBlock.align === "left";
+      if (isLeftAligned) {
+        return (
+          <div key={idx} className="mb-8 flex justify-center">
+            <div className="text-left">
+              {block.lines.map((line, li) => (
+                <p key={li} className="type-quote-author">{line}</p>
+              ))}
+            </div>
+          </div>
+        );
+      }
       return (
-        <div key={idx} className={centered ? "mb-8 text-center" : "mb-8"}>
+        <div key={idx} className={afterQuoteOrPoem ? "mb-8 text-center" : "mb-8"}>
           {block.lines.map((line, li) => (
             <p key={li} className="type-quote-author">{line}</p>
           ))}

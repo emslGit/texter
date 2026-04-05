@@ -10,9 +10,3 @@ Under mina sista år som sjukhuspräst stötte jag på ny forskning om omhänder
 “Det är som om dörrarna till det allra hemligaste eller heligaste rummet har öppnats och en ny verklighet har visat sig ( skrämmande men fascinerande), en verklighet som ingen förutom den drabbade personen har möjlighet att uppfatta”
 
 En beskrivning så närliggande evangeliernas berättelser om den fördjupning och växt, som lärjungarnas sorgeprocess innebar. Kan också dessa erfarenheter från så olika tider belysa och belysas genom varandra?
-
-```quote
-“Religionens språk består av samlad erfarenhet,
-och det lever endast där det talar från erfarenhet till erfarenhet.”
-```
-> — Dorothee Sölle
