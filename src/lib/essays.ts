@@ -1,62 +1,77 @@
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
+import { parseMarkdown, Block } from "./markdown";
 
-const CACHE_DIR = join(process.cwd(), "content");
+const CONTENT_DIR = join(process.cwd(), "content");
+const TEXTS_DIR = join(CONTENT_DIR, "texts");
 
-export interface Section {
-  heading: string;
-  slug: string;
-  paragraphs: string[];
-}
+export type { Block };
 
 export interface Essay {
   title: string;
   slug: string;
-  sections: Section[];
+  quote: string;
+  quoteAuthor: string;
+  blocks: Block[];
 }
 
-export interface SiteIntro {
-  epigraph: string[];
-  intro: string[];
+export interface TextConfig {
+  slug: string;
+  quote?: string;
+  quoteAuthor?: string;
+  excerptLength?: number;
 }
 
-interface SiteData {
-  intro: SiteIntro;
-  texts: Essay[];
+export function getConfig() {
+  try {
+    return JSON.parse(readFileSync(join(CONTENT_DIR, "config.json"), "utf-8"));
+  } catch {
+    return { site: {}, author: {}, texts: [] };
+  }
 }
 
-function loadSite(): SiteData {
-  return JSON.parse(readFileSync(join(CACHE_DIR, "site.json"), "utf-8"));
+export function getSiteIntro(): Block[] {
+  const path = join(CONTENT_DIR, "intro.md");
+  if (!existsSync(path)) return [];
+  const { blocks } = parseMarkdown(readFileSync(path, "utf-8"));
+  return blocks;
 }
 
-export function getSiteIntro(): SiteIntro {
-  return loadSite().intro;
+function loadEssay(slug: string): Essay | null {
+  const path = join(TEXTS_DIR, `${slug}.md`);
+  if (!existsSync(path)) return null;
+  const raw = readFileSync(path, "utf-8");
+  const { title, quote, quoteAuthor, blocks } = parseMarkdown(raw);
+  return { title, slug, quote, quoteAuthor, blocks };
 }
 
 export function getAllEssays(): Essay[] {
-  return loadSite().texts;
+  const entries = getConfig().texts as TextConfig[];
+  return entries.map((e) => loadEssay(e.slug)).filter((e): e is Essay => e !== null);
 }
 
 export function getEssay(slug: string): Essay | null {
-  return loadSite().texts.find((e) => e.slug === slug) ?? null;
+  return loadEssay(slug);
 }
 
 export function getManifest() {
-  return loadSite().texts.map((e) => ({ title: e.title, slug: e.slug }));
+  const entries = getConfig().texts as TextConfig[];
+  return entries
+    .map((e) => {
+      const essay = loadEssay(e.slug);
+      return essay ? { title: essay.title, slug: e.slug } : null;
+    })
+    .filter((e): e is { title: string; slug: string } => e !== null);
 }
 
 export function getExcerpt(essay: Essay, maxLen: number): string {
-  const paras = essay.sections.flatMap((s) => s.paragraphs);
-  // Concatenate all paragraphs, then cut at maxLen
-  const full = paras.join(" ");
-  if (full.length <= maxLen) return full;
-  // Cut and find last sentence end before the limit
-  const partial = full.slice(0, maxLen);
+  const text = essay.blocks
+    .filter((b): b is { type: "paragraph"; text: string } => b.type === "paragraph")
+    .map((b) => b.text)
+    .join(" ");
+  if (text.length <= maxLen) return text;
+  const partial = text.slice(0, maxLen);
   const lastDot = partial.lastIndexOf(". ");
-  if (lastDot > maxLen * 0.5) {
-    return partial.slice(0, lastDot) + "\u2026";
-  }
-  // Fall back to word boundary
-  const lastSpace = partial.lastIndexOf(" ");
-  return partial.slice(0, lastSpace) + "\u2026";
+  if (lastDot > maxLen * 0.5) return partial.slice(0, lastDot) + "\u2026";
+  return partial.slice(0, partial.lastIndexOf(" ")) + "\u2026";
 }

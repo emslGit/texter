@@ -25,10 +25,10 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-parchment text-ink font-serif antialiased leading-relaxed">
+      <body className="bg-parchment text-ink font-serif antialiased">
         <header className="border-b border-border/30 py-3">
           <div className="text-center">
-            <span className="font-sans text-[13px] uppercase tracking-widest text-ink-muted">
+            <span className="font-sans text-[13px] uppercase tracking-widest text-ink-muted/70">
               Ingegerd Slätteby
             </span>
           </div>

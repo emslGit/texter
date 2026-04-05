@@ -3,6 +3,9 @@
 @theme {
   --font-serif: "Cormorant Garamond", "Georgia", serif;
   --font-sans: "Source Sans 3", system-ui, sans-serif;
+  --text-lg--line-height: calc(1.75rem + 1px);
+  --text-xl--line-height: calc(1.75rem + 1px);
+  --text-2xl--line-height: calc(2rem + 1px);
   --color-parchment: #faf8f4;
   --color-ink: #2c2c2c;
   --color-ink-light: #555;
@@ -35,8 +38,14 @@
 @layer components {
   /* Quote typography — single source of truth for all pull quotes */
   .type-quote {
-    @apply text-xl sm:text-2xl italic text-ink-light leading-relaxed;
+    @apply text-xl sm:text-2xl italic text-ink-light;
   }
+  .type-quote q {
+    font-style: normal;
+    quotes: none;
+  }
+  .type-quote q::before { content: "\2018"; }
+  .type-quote q::after  { content: "\2019"; }
   .type-quote-author {
     @apply block text-base not-italic text-ink-muted tracking-wide mt-4;
   }

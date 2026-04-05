@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run parse && next build",
+    "build": "next build",
     "start": "next start",
-    "parse": "tsx scripts/parse-odt.ts",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,7 +21,6 @@
     "@types/react-dom": "^19",
     "postcss": "^8",
     "tailwindcss": "^4",
-    "tsx": "^4",
     "typescript": "^5"
   }
 }

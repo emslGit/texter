@@ -1,38 +1,24 @@
 {
   "site": {
     "title": "Texter",
-    "description": "En samling texter om tro, erfarenhet och mänskliga möten."
+    "description": "En samling texter om tro, erfarenhet och m\u00e4nskliga m\u00f6ten."
   },
   "author": {
-    "name": "Ingegerd Slätteby",
+    "name": "Ingegerd Sl\u00e4tteby",
     "role": "Sjukhuspräst emerita och teolog",
-    "bio": "En kort beskrivning av författaren placeras här."
+    "bio": "En kort beskrivning av f\u00f6rfattaren placeras h\u00e4r."
   },
-  "texts": {
-    "dar-hinnan-blev-tunn": {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-      "quoteAuthor": "Lorem Ipsum, Consectetur (1984)",
-      "excerptLength": 380
-    },
-    "i-minnet-uppstar-motet": {
-      "quote": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      "quoteAuthor": "Lorem Ipsum",
-      "excerptLength": 250
-    },
-    "det-tomma-rummet": {
-      "quote": "",
-      "quoteAuthor": "",
-      "excerptLength": 350
-    },
-    "ett-existentiellt-forband": {
-      "quote": "",
-      "quoteAuthor": "",
-      "excerptLength": 300
-    },
-    "en-djup-forbindelse": {
-      "quote": "",
-      "quoteAuthor": "",
-      "excerptLength": 250
-    }
-  }
+  "texts": [
+    { "slug": "dar-hinnan-blev-tunn",                    "excerptLength": 380 },
+    { "slug": "i-minnet-uppstar-motet",                  "excerptLength": 250 },
+    { "slug": "det-tomma-rummet",                        "excerptLength": 350 },
+    { "slug": "ett-existentiellt-forband",               "excerptLength": 300 },
+    { "slug": "en-djup-forbindelse",                     "excerptLength": 250 },
+    { "slug": "den-dolda-langtan",                       "excerptLength": 300 },
+    { "slug": "nar-nagon-ser-ar-vi-nara-det-gudomliga",  "excerptLength": 300 },
+    { "slug": "gud-vilken-love-story",                   "excerptLength": 300 },
+    { "slug": "titta-man-ser-redan-knoppar",             "excerptLength": 300 },
+    { "slug": "resiliens",                               "excerptLength": 300 },
+    { "slug": "mammorna-i-gaza",                         "excerptLength": 300 }
+  ]
 }

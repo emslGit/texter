@@ -1,49 +1,36 @@
-import { readFileSync } from "fs";
-import { join } from "path";
-import { getAllEssays, getSiteIntro, getExcerpt } from "@/lib/essays";
+import { getAllEssays, getSiteIntro, getExcerpt, getConfig } from "@/lib/essays";
+import { renderBlock } from "@/components/BlockRenderer";
 import AuthorSection from "@/components/AuthorSection";
-import Epigraph from "@/components/Epigraph";
 import TextCard from "@/components/TextCard";
 import FadeIn from "@/components/FadeIn";
 
-function getConfig() {
-  try {
-    return JSON.parse(readFileSync(join(process.cwd(), "content/config.json"), "utf-8"));
-  } catch {
-    return { author: { name: "", bio: "", role: "" } };
-  }
-}
-
 export default function Home() {
   const essays = getAllEssays();
-  const siteIntro = getSiteIntro();
+  const introBlocks = getSiteIntro();
   const config = getConfig();
   const { name, bio, role } = config.author ?? {};
+  const textEntries: { slug: string; excerptLength?: number }[] = config.texts ?? [];
 
   return (
     <div className="page-enter max-w-2xl mx-auto px-4 sm:px-6">
       <header className="pt-20 pb-8 sm:pt-28 sm:pb-12 text-center">
-        <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink mb-10 sm:mb-14">
+        <h1 className="font-serif text-3xl sm:text-4xl font-medium text-ink">
           {config.site?.title ?? "Texter"}
         </h1>
-        <Epigraph lines={siteIntro.epigraph} />
       </header>
 
-      {siteIntro.intro.length > 0 && (
+      {introBlocks.length > 0 && (
         <FadeIn>
-          <div className="pb-10 sm:pb-14">
-            {siteIntro.intro.map((p, i) => (
-              <p key={i} className="text-lg sm:text-xl leading-relaxed [&:not(:first-child)]:indent-8">
-                {p}
-              </p>
-            ))}
+          <div className="pb-10 sm:pb-14 text-lg sm:text-xl">
+            {introBlocks.map((block, i) => renderBlock(block, i, introBlocks[i - 1]))}
           </div>
         </FadeIn>
       )}
 
       <main>
         {essays.map((essay, i) => {
-          const len = config.texts?.[essay.slug]?.excerptLength ?? 300;
+          const entry = textEntries.find((t) => t.slug === essay.slug);
+          const len = entry?.excerptLength ?? 300;
           return (
             <FadeIn key={essay.slug} delay={i * 0.08}>
               <TextCard

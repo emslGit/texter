@@ -8,20 +8,20 @@ interface TextCardProps {
 
 export default function TextCard({ title, slug, excerpt }: TextCardProps) {
   return (
-    <article className="py-12 sm:py-16 border-t border-border/40">
+    <article className="py-8 border-t border-border/40">
       <Link href={`/${slug}`} className="group block">
         <h2 className="font-serif text-2xl sm:text-3xl font-medium text-ink mb-4 group-hover:text-ink-light transition-colors">
           {title}
         </h2>
       </Link>
       {excerpt && (
-        <p className="text-lg sm:text-xl text-ink-light leading-relaxed mb-6">
+        <p className="text-lg sm:text-xl text-ink-light mb-6">
           {excerpt}
         </p>
       )}
       <Link
         href={`/${slug}`}
-        className="inline-block font-sans font-medium text-sm text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
+        className="inline-block mt-4 font-sans font-medium text-sm text-ink uppercase tracking-widest hover:text-ink-light transition-colors border-b border-ink/30 pb-0.5"
       >
         Läs hela →
       </Link>

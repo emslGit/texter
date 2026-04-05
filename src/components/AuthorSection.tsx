@@ -29,7 +29,7 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
           </div>
         </div>
         {bio && (
-          <p className="text-base sm:text-lg leading-loose text-ink-light">{bio}</p>
+          <p className="text-base sm:text-lg text-ink-light">{bio}</p>
         )}
       </div>
     </aside>
