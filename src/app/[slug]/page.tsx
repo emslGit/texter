@@ -52,7 +52,7 @@ export default async function EssayPage({
           href="/"
           className="font-sans font-medium text-sm text-ink-muted uppercase tracking-widest hover:text-ink transition-colors"
         >
-          ← Alla texter
+          ← Fler texter
         </Link>
       </nav>
 
