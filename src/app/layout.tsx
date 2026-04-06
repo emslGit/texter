@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Ingegerds texter",
-  description: "En samling texter om tro, erfarenhet och mänskliga möten av Ingegerd Slätteby.",
+  description: "En samling texter om tro, erfarenhet och mänskliga möten som sjukhuspräst och teolog av Ingegerd Slätteby.",
   keywords: ["Ingegerd Slätteby", "Ingegerds texter", "svenska texter", "kristen tro", "personliga texter"],
   authors: [{ name: "Ingegerd Slätteby" }],
 };

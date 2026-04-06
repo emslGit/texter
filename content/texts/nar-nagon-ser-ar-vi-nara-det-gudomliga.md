@@ -2,7 +2,9 @@
 
 Jag har ett barn i min närhet. Barnet ser. Det visar inte upp sig. Det ser. Det är något helt annat än alla bilder på sociala medier, där vi visar upp oss.
 
-Vid varje dop läses berättelsen om Jesus, när han tar upp barnen i famnen. Man kan ju gissa att han var en ovanlig man som gjorde det. För två tusen år sedan. Det är ju långt in i vår tid som vi börjat se barnen och respektera dem som små personer i sin egen rätt. Men han vågar bryta mönster. Och han fick ju ta i, bli arg, för att inte barnen skulle visas bort.
+Vid varje dop läses berättelsen om Jesus, när han tar upp barnen i famnen. Man kan ju gissa att han var en ovanlig man som gjorde det.
+<!--more-->
+För två tusen år sedan. Det är ju långt in i vår tid som vi börjat se barnen och respektera dem som små personer i sin egen rätt. Men han vågar bryta mönster. Och han fick ju ta i, bli arg, för att inte barnen skulle visas bort.
 
 ```quote
 “Låt barnen komma hit till mig och hindra dem inte: Guds rike tillhör sådana som de.”

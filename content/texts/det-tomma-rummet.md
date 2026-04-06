@@ -2,7 +2,9 @@
 
 Kvinnorna fanns vid graven. Deras roll är självklar i uppståndelsetexterna. Skillnaden mot förut är att Jesus inte är där. Det de möter är tomhet och en röst, en insikt, som säger att de skall gå tillbaka till vardagen. Det är där mötet kommer att finnas.
 
-Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev. Erfarenheten av den tomma graven. Men det behövde uppstå en berättelse. Ett språk för erfarenheten.
+Vilken kraft det fanns i tomheten. Så omvandlande, så skapande den blev.
+<!--more-->
+Erfarenheten av den tomma graven. Men det behövde uppstå en berättelse. Ett språk för erfarenheten.
 
 I Johannes evangelium finns en berättelse om Maria från Magdala. Det står om henne att hon gråtande lutade sig in i graven...
 

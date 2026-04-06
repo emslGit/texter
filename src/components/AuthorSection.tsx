@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 interface AuthorProps {
   name: string;
   bio: string;
@@ -6,6 +10,9 @@ interface AuthorProps {
 
 export default function AuthorSection({ name, bio, role }: AuthorProps) {
   if (!name && !bio) return null;
+
+  const paragraphs = bio.split("\n\n");
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <aside className="mt-12 sm:mt-16 -mx-4 sm:mx-0">
@@ -29,7 +36,31 @@ export default function AuthorSection({ name, bio, role }: AuthorProps) {
           </div>
         </div>
         {bio && (
-          <p className="text-base sm:text-lg text-ink-light">{bio}</p>
+          <div className="space-y-4">
+            <div
+              className="relative overflow-hidden transition-[max-height] duration-500 ease-in-out"
+              style={{ maxHeight: expanded ? "60rem" : "6rem" }}
+            >
+              <div className="text-base sm:text-lg text-ink-light space-y-4">
+                {paragraphs.map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+              </div>
+              <div
+                className="absolute inset-0 pointer-events-none transition-opacity duration-500"
+                style={{
+                  opacity: expanded ? 0 : 1,
+                  background: "linear-gradient(to bottom, transparent 30%, #f7f3ed 100%)",
+                }}
+              />
+            </div>
+            <button
+              onClick={() => setExpanded(!expanded)}
+              className="text-sm font-sans text-ink-muted hover:text-ink transition-colors underline cursor-pointer"
+            >
+              {expanded ? "Läs mindre" : "Läs mer"}
+            </button>
+          </div>
         )}
       </div>
     </aside>

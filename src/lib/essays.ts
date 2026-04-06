@@ -64,11 +64,19 @@ export function getManifest() {
     .filter((e): e is { title: string; slug: string } => e !== null);
 }
 
-export function getExcerpt(essay: Essay, maxLen: number): string {
-  const text = essay.blocks
+export function getExcerpt(essay: Essay, maxLen = 300): string {
+  const cutIdx = essay.blocks.findIndex((b) => b.type === "excerpt-end");
+  const relevantBlocks = cutIdx !== -1 ? essay.blocks.slice(0, cutIdx) : essay.blocks;
+  const paragraphs = relevantBlocks
     .filter((b): b is { type: "paragraph"; text: string } => b.type === "paragraph")
-    .map((b) => b.text)
-    .join(" ");
+    .map((b) => b.text);
+
+  if (cutIdx !== -1) {
+    const text = paragraphs.join(" ").trim();
+    return (text.endsWith(".") ? text.slice(0, -1) : text) + "\u2026";
+  }
+
+  const text = paragraphs.join(" ");
   if (text.length <= maxLen) return text;
   const partial = text.slice(0, maxLen);
   const lastDot = partial.lastIndexOf(". ");

@@ -39,10 +39,11 @@ export default async function EssayPage({
 
   const config = getConfig();
   const { name, bio, role } = config.author ?? {};
+  const RELATED_COUNT = 3;
   const otherEssays = getAllEssays()
     .filter((e) => e.slug !== slug)
     .sort(() => Math.random() - 0.5)
-    .slice(0, 5);
+    .slice(0, RELATED_COUNT);
 
   return (
     <div className="page-enter max-w-2xl mx-auto px-4 sm:px-6">

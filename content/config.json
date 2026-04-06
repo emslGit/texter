@@ -1,57 +1,24 @@
 {
   "site": {
     "title": "Texter",
-    "description": "En samling texter om tro, erfarenhet och m\u00e4nskliga m\u00f6ten."
+    "description": "En samling texter om tro, erfarenhet och m\u00e4nskliga m\u00f6ten som sjukhuspr\u00e4st och teolog av Ingegerd Sl\u00e4tteby"
   },
   "author": {
     "name": "Ingegerd Sl\u00e4tteby",
-    "role": "Sjukhuspräst emerita och teolog",
-    "bio": ""
+    "role": "Sjukhuspr\u00e4st emerita och teolog",
+    "bio": "Ingegerd Sl\u00e4tteby \u00e4r f\u00f6dd 1951 och uppvuxen p\u00e5 en liten bondg\u00e5rd i Tranemo i s\u00f6dra V\u00e4sterg\u00f6tland. Efter socionomstudier 1975 arbetade hon som diakon i Tynnereds f\u00f6rsamling i G\u00f6teborg. En stark l\u00e4ngtan efter teologisk f\u00f6rdjupning ledde till teologistudier och pr\u00e4stvigning f\u00f6r Lunds stift 1990. \n\nUtg\u00e5ngspunkten i allt arbete oavsett som f\u00f6rsamlingspr\u00e4st eller p\u00e5 universitetssjukhuset i Lund har alltid varit det m\u00e4nskliga livet och det m\u00e4nskliga m\u00f6tet. Under senare \u00e5r har tv\u00e5 teologer blivit mycket betydelsefulla: Marcus J Borg och John Dominic Crossant."
   },
   "texts": [
-    {
-      "slug": "dar-hinnan-blev-tunn",
-      "excerptLength": 380
-    },
-    {
-      "slug": "i-minnet-uppstar-motet",
-      "excerptLength": 250
-    },
-    {
-      "slug": "det-tomma-rummet",
-      "excerptLength": 350
-    },
-    {
-      "slug": "ett-existentiellt-forband",
-      "excerptLength": 300
-    },
-    {
-      "slug": "en-djup-forbindelse",
-      "excerptLength": 250
-    },
-    {
-      "slug": "den-dolda-langtan",
-      "excerptLength": 300
-    },
-    {
-      "slug": "nar-nagon-ser-ar-vi-nara-det-gudomliga",
-      "excerptLength": 300
-    },
-    {
-      "slug": "gud-vilken-love-story",
-      "excerptLength": 300
-    },
-    {
-      "slug": "titta-man-ser-redan-knoppar",
-      "excerptLength": 300
-    },
-    {
-      "slug": "resiliens",
-      "excerptLength": 300
-    },
-    {
-      "slug": "mammorna-i-gaza",
-      "excerptLength": 300
-    }
+    { "slug": "dar-hinnan-blev-tunn" },
+    { "slug": "i-minnet-uppstar-motet" },
+    { "slug": "det-tomma-rummet" },
+    { "slug": "ett-existentiellt-forband" },
+    { "slug": "en-djup-forbindelse" },
+    { "slug": "den-dolda-langtan" },
+    { "slug": "nar-nagon-ser-ar-vi-nara-det-gudomliga" },
+    { "slug": "gud-vilken-love-story" },
+    { "slug": "titta-man-ser-redan-knoppar" },
+    { "slug": "resiliens" },
+    { "slug": "mammorna-i-gaza" }
   ]
 }

@@ -4,11 +4,12 @@ interface TextCardProps {
   title: string;
   slug: string;
   excerpt: string;
+  hideBorder?: boolean;
 }
 
-export default function TextCard({ title, slug, excerpt }: TextCardProps) {
+export default function TextCard({ title, slug, excerpt, hideBorder }: TextCardProps) {
   return (
-    <article className="py-8 border-t border-border/40">
+    <article className={`py-8 ${hideBorder ? "xl:border-t xl:border-border/40" : "border-t border-border/40"}`}>
       <Link href={`/${slug}`} className="group block">
         <h2 className="font-serif text-2xl sm:text-3xl font-medium text-ink mb-4 group-hover:text-ink-light transition-colors">
           {title}

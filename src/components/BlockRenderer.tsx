@@ -51,12 +51,16 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block, nextBl
     case "author": {
       const afterQuoteOrPoem = prevBlock?.type === "blockquote" || prevBlock?.type === "poem";
       const isLeftAligned = prevBlock?.type === "blockquote" && prevBlock.align === "left";
+      const formatLine = (line: string) => {
+        const text = line.startsWith("\u2014 ") ? line.slice(2) : line;
+        return `(${text})`;
+      };
       if (isLeftAligned) {
         return (
           <div key={idx} className="mb-8 flex justify-center">
             <div className="text-left">
               {block.lines.map((line, li) => (
-                <p key={li} className="type-quote-author">{line}</p>
+                <p key={li} className="type-quote-author">{formatLine(line)}</p>
               ))}
             </div>
           </div>
@@ -65,11 +69,14 @@ export function renderBlock(block: Block, idx: number, prevBlock?: Block, nextBl
       return (
         <div key={idx} className={afterQuoteOrPoem ? "mb-8 text-center" : "mb-8"}>
           {block.lines.map((line, li) => (
-            <p key={li} className="type-quote-author">{line}</p>
+            <p key={li} className="type-quote-author">{formatLine(line)}</p>
           ))}
         </div>
       );
     }
+
+    case "excerpt-end":
+      return null;
 
     case "poem":
       return (

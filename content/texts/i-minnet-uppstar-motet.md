@@ -1,6 +1,6 @@
 # I minnet uppstår mötet
 
-```quote
+```quote left
 "Kristus, segraren, du som möter
 Oss när ingenting annat återstår
 Du är varken far eller son
@@ -9,9 +9,11 @@ Du är den där speciella ensamheten
 Som slår sig in hos mig
 För att aldrig överge oss, det enda som alltid finns kvar."
 ```
-> — ur "En liten bok om kärlek" av Kristian Lundberg
+> — ur “En liten bok om kärlek” av Kristian Lundberg
 
-När jag var nyprästvigd och för första gången skulle predika under påsken gjorde jag en upptäckt som kom att få mycket stor betydelse för mig. Varje söndag har ett tema och efter påsk finns rubriker som “Vägen till livet” och “Att växa i tro”. När jag började läsa de texter som jag skulle predika över, så märkte jag att flera av dem var hämtade ur Jesu avskedstal till sina vänner, när han förstod att hans liv var hotat. Avskedstalet är en del av Johannesevangeliet.
+När jag var nyprästvigd och för första gången skulle predika under påsken gjorde jag en upptäckt som kom att få mycket stor betydelse för mig. Varje söndag har ett tema och efter påsk finns rubriker som “Vägen till livet” och “Att växa i tro”.
+<!--more-->
+När jag började läsa de texter som jag skulle predika över, så märkte jag att flera av dem var hämtade ur Jesu avskedstal till sina vänner, när han förstod att hans liv var hotat. Avskedstalet är en del av Johannesevangeliet.
 
 Men varför är dessa texter påbjudna att läsas och reflekteras över efter påsk? Hör de inte hemma före påsk?
 

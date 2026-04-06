@@ -1,6 +1,6 @@
 # Mammorna i Gaza
 
-```quote
+```quote left
 “En väninna från en stad långt borta
 från ett fjärran språk
 frågade:
@@ -14,7 +14,9 @@ Bröd”
 Vi måste konsumera mer, säger finansministern.
 För att konsumera som vi gör, så krävs det flera jordklot, säger forskare.
 Vad är nödvändigt?
-Ett är nödvändigt, så lyder överskriften på femtonde söndagen efter Trefaldighet..
+Ett är nödvändigt, så lyder överskriften på femtonde söndagen efter Trefaldighet.
+<!--more-->
+
 I en annan dikt skriver Nima Hasan
 
 ```poem

@@ -3,13 +3,14 @@ import { renderBlock } from "@/components/BlockRenderer";
 import AuthorSection from "@/components/AuthorSection";
 import TextCard from "@/components/TextCard";
 import FadeIn from "@/components/FadeIn";
+import SidebarNav from "@/components/SidebarNav";
 
 export default function Home() {
   const essays = getAllEssays();
   const introBlocks = getSiteIntro();
   const config = getConfig();
   const { name, bio, role } = config.author ?? {};
-  const textEntries: { slug: string; excerptLength?: number }[] = config.texts ?? [];
+  const textEntries: { slug: string }[] = config.texts ?? [];
 
   return (
     <div className="page-enter max-w-2xl mx-auto px-4 sm:px-6">
@@ -27,17 +28,22 @@ export default function Home() {
         </FadeIn>
       )}
 
+      <FadeIn>
+        <SidebarNav essays={essays.map((e) => ({ title: e.title, slug: e.slug }))} />
+      </FadeIn>
+
       <main>
         {essays.map((essay, i) => {
-          const entry = textEntries.find((t) => t.slug === essay.slug);
-          const len = entry?.excerptLength ?? 300;
           return (
-            <FadeIn key={essay.slug} delay={i * 0.08}>
-              <TextCard
-                title={essay.title}
-                slug={essay.slug}
-                excerpt={getExcerpt(essay, len)}
-              />
+            <FadeIn key={essay.slug} delay={i * 0.05}>
+              <div id={essay.slug}>
+                <TextCard
+                  title={essay.title}
+                  slug={essay.slug}
+                  excerpt={getExcerpt(essay)}
+                  hideBorder={i === 0}
+                />
+              </div>
             </FadeIn>
           );
         })}

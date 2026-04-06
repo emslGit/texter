@@ -1,6 +1,8 @@
 # En djup förbindelse
 
-Tro är inte ett försanthållande av trossatser. Ordet religion, som enligt vissa forskare går tillbaka på det latinska ordet religare, betyder att återknyta, förbinda. Ett återknytande med djupen, en förbindelse, ett band som inte går av. Vårt innersta fäste. Rotfäst. Ett lod. Detta har förblivit den viktigaste och mest pålitliga bilden för min gudserfarenhet. Tilliten som ett förbund, en förbindelse.
+Tro är inte ett försanthållande av trossatser. Ordet religion, som enligt vissa forskare går tillbaka på det latinska ordet religare, betyder att återknyta, förbinda. Ett återknytande med djupen, en förbindelse, ett band som inte går av.
+<!--more-->
+Vårt innersta fäste. Rotfäst. Ett lod. Detta har förblivit den viktigaste och mest pålitliga bilden för min gudserfarenhet. Tilliten som ett förbund, en förbindelse.
 
 Religionsforskaren Karen Armstrong har berättat, att när människor av olika religion skall beskriva den djupaste och viktigaste religiösa erfarenheten, den som har med den djupaste meningen att göra, så verkar de beskriva samma erfarenhet: Nåden att få bli så djupt berörd att man lyfts ur sig själv, glömmer sig själv, och får erfara delaktigheten i ett större sammanhang och ett genuint möte med en annan människa. Det verkar finnas en förbindelse mellan ”dessa Andra” : det lilla barnet inom oss, Självet, som är större och djupare än vårt jag och som vi bara kan ta emot, vår medmänniska, barnen, de mest utsatta. Gudserfarenheten hör samman med mötet med den Andre. Med ett Du.
 

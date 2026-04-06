@@ -1,6 +1,8 @@
 # Den dolda längtan
 
-Han hade bett personalen att jag skulle komma till honom på sjukhuset. En äldre man med långt framskriden cancer. Han hade en speciell sak att tala om. Det verkade vara någon sorts skuld, som han brottades med. Han talade om ett gammalt Sverige. Jag fick intrycket av att han var född på landet, någonstans I Småland.
+Han hade bett personalen att jag skulle komma till honom på sjukhuset. En äldre man med långt framskriden cancer. Han hade en speciell sak att tala om. Det verkade vara någon sorts skuld, som han brottades med. Han talade om ett gammalt Sverige.
+<!--more-->
+Jag fick intrycket av att han var född på landet, någonstans I Småland.
 
 Min mamma var en så trygg person, sa han. Hon var så trygg i sin tro och hon gick varje söndag till kyrkan. Alltid. Och likadant var det med mormor. Hon förmedlade samma trygghet till mig och andra. Men jag har inte levt som dom. Jag har inte samma tro och jag har inte gått i kyrkan som dom. Det har på något sätt inte stämt för mig. Han uttryckte någon sorts skuld i detta. Vi försökte hitta vari skulden låg. Om han trodde att mor och mormor varit besvikna på honom för att han inte gått i kyrkan. Nej, det känner jag inte sa han. Skulden var inte att han skulle ha gjort dem besvikna – de krävde ingenting.
 
@@ -39,4 +41,4 @@ det på egen hand.
 Så jag vände mig bort från vad jag
 fick en liten aning om där jag stod.”
 ```
-> — ur dikten 'Mara' av Göran Greider ur diktsamlingen “Jakobsbrevet”
+> — ur dikten “Mara” av Göran Greider ur diktsamlingen “Jakobsbrevet”

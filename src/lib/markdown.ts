@@ -24,7 +24,8 @@ export type Block =
   | { type: "blockquote"; lines: string[]; align?: "left" }
   | { type: "author"; lines: string[] }
   | { type: "poem"; lines: string[] }
-  | { type: "paragraph"; text: string };
+  | { type: "paragraph"; text: string }
+  | { type: "excerpt-end" };
 
 export function parseMarkdown(raw: string): { title: string; quote: string; quoteAuthor: string; blocks: Block[] } {
   const lines = raw.split("\n");
@@ -106,10 +107,16 @@ export function parseMarkdown(raw: string): { title: string; quote: string; quot
     }
 
     // Paragraph — collect lines, preserving blank lines between content as \n\n
+    let hitMore = false;
     const paraLines: string[] = [];
     while (i < lines.length) {
       const cur = lines[i];
       if (cur.startsWith("#") || cur.startsWith(">") || cur.startsWith("```")) break;
+      if (cur.trim() === "<!--more-->") {
+        hitMore = true;
+        i++;
+        break;
+      }
       if (cur.trim() === "") {
         // Look ahead: if more paragraph content follows, keep blank lines
         let j = i + 1;
@@ -124,6 +131,9 @@ export function parseMarkdown(raw: string): { title: string; quote: string; quot
     }
     if (paraLines.length > 0) {
       blocks.push({ type: "paragraph", text: smartQuotes(paraLines.join("\n")) });
+    }
+    if (hitMore) {
+      blocks.push({ type: "excerpt-end" });
     }
   }
 

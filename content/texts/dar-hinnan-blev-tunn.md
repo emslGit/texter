@@ -1,15 +1,17 @@
 # Där hinnan blev tunn
 
-```quote
+```quote left
 "I natt gick Gud under
 kanske var det ett tomt
 namnskal som gick under..."
 ```
-> — ur Kris av Karin Boye
+> — ur “Kris” av Karin Boye
 
 Under den tid, då alla våra bibliska texter kom till – och det är en tid av flera tusen år, så levde människor med en annan världsbild än den som vi lever med idag.
 
-De tänkte världen i tre våningar: en underjord med det onda och helvetiska, en synlig jord med hav och land och berg och en gudomlig himmel däröver. En stillastående bild. Det var den tidens vetenskapliga syn på världen. Det var inom den ramen som människor formulerade sina tankar om Gud. De texter vi har i vår bibel är präglade av den världsbilden.
+De tänkte världen i tre våningar: en underjord med det onda och helvetiska, en synlig jord med hav och land och berg och en gudomlig himmel däröver. En stillastående bild.
+<!--more-->
+Det var den tidens vetenskapliga syn på världen. Det var inom den ramen som människor formulerade sina tankar om Gud. De texter vi har i vår bibel är präglade av den världsbilden.
 
 Sedan dess – och det är 2 000 år sedan – så har forskningen och vetenskapen gett oss en helt annan bild av den jord vi lever på. Dess historia, inte tusen, men miljarder år lång, dess plats i ett oändligt universum. Ett kosmos. Och forskningen upptäcker och ifrågasätter och för oss hela tiden vidare och djupare. Jorden, än mindre människan, är inte längre alltings centrum. Allt hör samman.
 

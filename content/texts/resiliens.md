@@ -7,7 +7,9 @@
 
 Det finns ett begrepp, som jag stötte på, när jag arbetade på sjukhuset, utan att riktigt kunna greppa vad det stod för. Och det är begreppet resiliens. Personalen på avdelningen kunde säga på ronden att patienten uppvisade god resiliens.
 
-Nu har jag mött det i fler sammanhang, också mycket större. Som något nödvändigt för vårt liv på jorden, för vår gemensamma framtid.
+Nu har jag mött det i fler sammanhang, också mycket större.
+<!--more-->
+Som något nödvändigt för vårt liv på jorden, för vår gemensamma framtid.
 
 Resiliens beskrivs som förmågan att framgångsrikt anpassa sig till svåra och utmanande erfarenheter, att kunna återhämta sig, men kanske främst att också kunna hitta en väg framåt, förmågan att kunna utvecklas med förändring, att kunna ställa om och se nya möjligheter, att kunna skifta över och se något nytt, kanske ännu viktigare, att gå stärkt ur krisen. I forskning om vår framtid här på jorden är detta ett centralt begrepp, som en ram för arbetet. En övertygelse om att det finns en väg. Men det kräver en förändring.
 

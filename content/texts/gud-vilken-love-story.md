@@ -5,7 +5,9 @@
 ```
 > — Dietrich Bonhoeffer
 
-”Gud, vilken love story!” så slöd rubriken på en bokrecension i Kyrkans Tidning. Recensenten hade läst författaren Anita Goldmans bok om kvinnliga mystiker: ”Guds älskarinnor, Om hängivna kvinnor i en livrädd värld”. Hos evangelisten Markus möter vi också en berättelse om en hängiven kvinna, som utmanade sin omvärld.
+“Gud, vilken love story!” så slöd rubriken på en bokrecension i Kyrkans Tidning. Recensenten hade läst författaren Anita Goldmans bok om kvinnliga mystiker: “Guds älskarinnor, Om hängivna kvinnor i en livrädd värld”.
+<!--more-->
+Hos evangelisten Markus möter vi också en berättelse om en hängiven kvinna, som utmanade sin omvärld.
 
 ”Medan Jesus var i Betania och låg till bords hemma hos Simon den spetälske kom en kvinna med en flaska dyrbar äkta nardusbalsam. Hon bröt upp flaskan och hällde ut alltsammans över hans huvud. Några blev förargade och sade till varandra: `Vilket slöseri med balsam. För den oljan hade man ju kunnat få mer än trehundra denarer att ge åt de fattiga.´ Och de grälade på henne”. (Här är det värdefullt att veta att en dags grovarbete på den tiden betalades med en denar).
 
