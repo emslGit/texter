@@ -1,9 +1,9 @@
 # Ett existentiellt förband
 
 ```quote
-"It is as if the doors to the most secret or holy room have been opened and a new reality has appeared ( horrifying but fascinating ), a reality that no one but the tormented person is able to grasp"
+“It is as if the doors to the most secret or holy room have been opened and a new reality has appeared ( horrifying but fascinating ), a reality that no one but the tormented person is able to grasp”
 ```
-> — Arne Rehnsfeldt & Maria Arman
+> Arne Rehnsfeldt & Maria Arman
 
 Under mina sista år som sjukhuspräst stötte jag på ny forskning om omhändertagandet av människor som varit med om stora katastrofer. Forskarna Arne Rehnsfeldt och Maria Arman skriver om hur det mest verksamma verkar vara att lägga, vad de kallar, “ett existentiellt förband”.
 <!--more-->

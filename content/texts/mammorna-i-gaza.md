@@ -9,7 +9,7 @@ Hungern log svagt och svarade
 utan att tänka:
 Bröd”
 ```
-> — Nima Hasan
+> Nima Hasan
 
 Vi måste konsumera mer, säger finansministern.
 För att konsumera som vi gör, så krävs det flera jordklot, säger forskare.

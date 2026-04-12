@@ -3,7 +3,7 @@
 ```quote
 “Uppenbarelsen är ett ögonblick, där något heligt står på spel”
 ```
-> — Abraham Heschel, judisk 1900-talsteolog
+> Abraham Heschel, judisk 1900-talsteolog
 
 Det finns ett begrepp, som jag stötte på, när jag arbetade på sjukhuset, utan att riktigt kunna greppa vad det stod för. Och det är begreppet resiliens. Personalen på avdelningen kunde säga på ronden att patienten uppvisade god resiliens.
 

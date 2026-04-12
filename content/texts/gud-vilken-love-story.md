@@ -3,7 +3,7 @@
 ```quote
 “Ein solcher ´Gott´, den ´es gibt´, gibt es nicht”
 ```
-> — Dietrich Bonhoeffer
+> Dietrich Bonhoeffer
 
 “Gud, vilken love story!” så slöd rubriken på en bokrecension i Kyrkans Tidning. Recensenten hade läst författaren Anita Goldmans bok om kvinnliga mystiker: “Guds älskarinnor, Om hängivna kvinnor i en livrädd värld”.
 <!--more-->

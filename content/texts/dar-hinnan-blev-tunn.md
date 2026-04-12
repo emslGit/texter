@@ -1,11 +1,10 @@
 # Där hinnan blev tunn
 
 ```quote left
-"I natt gick Gud under
-kanske var det ett tomt
-namnskal som gick under..."
+“I natt gick Gud under.
+Kanske var det ett tomt namnskal, som gick under...”
 ```
-> — ur “Kris” av Karin Boye
+> ur “Kris” av Karin Boye
 
 Under den tid, då alla våra bibliska texter kom till – och det är en tid av flera tusen år, så levde människor med en annan världsbild än den som vi lever med idag.
 

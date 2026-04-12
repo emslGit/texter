@@ -3,7 +3,7 @@
 ```quote
 “Min pappa var en trädgårdsmästare. Nu är han en trädgård”
 ```
-> — ur “Trädgårdsmästaren och döden” av Georgi Gospodinov
+> ur "Trädgårdsmästaren och döden" av Georgi Gospodinov
 
 En tid efter Rysslands angrepp på Ukraina 2022 läste jag en bok skriven av en kvinna, som har växt upp i Ukraina, men lämnat landet som 15-åring tillsammans med sin mamma. Hon heter Victoria Belim. Hon bor nu i Bryssel och är journalist.
 <!--more-->
@@ -21,7 +21,7 @@ Jesus vek aldrig av vägen för att knacka på Mölnas port.
 Bara det blommande körsbärsträdet gav pojken den tro på livet,
 som hejdade honom på galenskapens tröskel, de många gånger han var på väg ut i mörkret.”
 ```
-> — ur “Livets ax” av Sven Delblanc
+> ur "Livets ax" av Sven Delblanc
 
 “Titta, man ser redan knoppar,” säger mormor Valentina när hon går i sin vinterträdgård i Ukraina. Hennes barnbarn Victoria Belim skriver om thauma, som är det grekiska ordet för underverk. Inte underverk i någon övernaturlig mening. Thauma är vardagens underverk, en glimt av det gudomliga genom den slöja som skiljer det dödligas värld från ett himmelskt rike. I den ortodoxa traditionen är gränsen mellan de båda världarna flytande och varje ögonblick kan vara en portal och en övergång.
 

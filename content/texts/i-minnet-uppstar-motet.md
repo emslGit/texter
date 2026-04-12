@@ -1,15 +1,15 @@
 # I minnet uppstår mötet
 
 ```quote left
-"Kristus, segraren, du som möter
-Oss när ingenting annat återstår
+“...Kristus, segraren, du som möter
+oss när ingenting annat återstår
 Du är varken far eller son
-Du kommer aldrig bli mor eller syster
+Du kommer aldrig att bli mor eller syster
 Du är den där speciella ensamheten
-Som slår sig in hos mig
-För att aldrig överge oss, det enda som alltid finns kvar."
+som slår sig in hos mig
+för att aldrig överge oss, det enda som alltid står kvar”
 ```
-> — ur “En liten bok om kärlek” av Kristian Lundberg
+> ur “En liten bok om kärlek" av Kristian Lundberg
 
 När jag var nyprästvigd och för första gången skulle predika under påsken gjorde jag en upptäckt som kom att få mycket stor betydelse för mig. Varje söndag har ett tema och efter påsk finns rubriker som “Vägen till livet” och “Att växa i tro”.
 <!--more-->

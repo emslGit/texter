@@ -9,7 +9,7 @@ För två tusen år sedan. Det är ju långt in i vår tid som vi börjat se bar
 ```quote
 “Låt barnen komma hit till mig och hindra dem inte: Guds rike tillhör sådana som de.”
 ```
-> — Markus evangelium 10:14
+> Markus evangelium 10:14
 
 Vi är så vana att tänka oss Jesus som suverän, som någon som vet allt från början och som står lite ovanför med distans och talar om hur saker borde vara. Jag tror inte att det var så. Han var som en av oss. Som lärde sig genom livet. Som fick kämpa med sin uppgift och till slut kom fram till vad han måste göra. Hur han skulle använda sina insikter och erfarenheter. Hur han kunde hjälpa och fördjupa.
 
